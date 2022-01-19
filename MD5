@@ -1,0 +1,16 @@
+060d117582fcfd1bbb33d4a0209ac052 *DESCRIPTION
+dc21c19f0d6968ee25d441b2cf46017d *NAMESPACE
+b8f17d0467f4dc408181326dee42c18e *NEWS.md
+f025ed9d0a659ec165c8e88e635044b1 *R/USA_state_boundaries.R
+30ae964d10071409bbf2790ea911efd7 *R/data-USA_state_boundaries_info.R
+32949931c51c36af8a6f6ff314dc75d8 *R/data-USA_state_boundaries_map.R
+039ce7bbec35c57110ac5b6dd293a333 *R/data-USA_state_boundaries_summary.R
+0967758b816966b6b1a74ed11285e363 *README.md
+4ae4838b9ccce92537daefa3cfe36265 *data/USA_state_boundaries_info.RData
+3bd09dd275c5c305e475c902d7464a59 *data/USA_state_boundaries_map.RData
+8b2e5671bd9180bbb840da45ebec557f *data/USA_state_boundaries_summary.RData
+c4bc252518a6478350231136c76bdd66 *inst/data-raw/USA_state_boundaries_datacreate.R
+dd8209502074250867963f8ea394c819 *man/USA.state.boundaries-package.Rd
+b02c4e7ffc3ee6a5328f9f3ba116aff4 *man/USA_state_boundaries_info.Rd
+3959c463da0325c21ab763d43c3350e9 *man/USA_state_boundaries_map.Rd
+f0b5eeec691c88d4fbcdd9a9177ef71b *man/USA_state_boundaries_summary.Rd
