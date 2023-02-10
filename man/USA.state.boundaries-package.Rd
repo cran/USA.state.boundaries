@@ -4,9 +4,9 @@
 \name{USA.state.boundaries-package}
 \alias{USA.state.boundaries}
 \alias{USA.state.boundaries-package}
-\title{USA.state.boundaries: Replacement of the 'USGSstates2k' Package}
+\title{USA.state.boundaries: WGS84 Datum Map of the USA, Including Puerto Rico and the U.S. Virgin Islands}
 \description{
-This is a replacement of the archived 'USGSstates2k' package. It contains a map with the state boundaries of the USA obtained from the USGS. Irucka worked with this data set while a Cherokee Nation Technology Solutions (CNTS) USGS Contractor and/or USGS employee. This package contains a subset of the data included in the 'USA.state.boundaries.data' package, which is available in a 'drat' repository. To install that data package, please follow the instructions at <https://gitlab.com/iembry/usa.state.boundaries.data>.
+Contains a WGS84 datum map of the USA, which includes all Commonwealth and State boundaries & also includes Puerto Rico and the U.S. Virgin Islands. This map is a reprojection of the NAD83 datum map from the USGS National Map. This package contains a subset of the data included in the 'USA.state.boundaries.data' package, which is available in a 'drat' repository. To install that data package, please follow the instructions at \url{https://gitlab.com/iembry/usa.state.boundaries.data}.
 }
 \details{
 USA.state.boundaries: Replacement of the 'USGSstates2k' Package
@@ -14,7 +14,7 @@ USA.state.boundaries: Replacement of the 'USGSstates2k' Package
 This package contains a subset of the data included in the
 `USA.state.boundaries.data` package, which is available in a `drat`
 repository. To access that data package, please read this package's
-README and refer to this package's vignette.
+README.
 }
 \seealso{
 Useful links:

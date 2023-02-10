@@ -1,19 +1,18 @@
 Package: USA.state.boundaries
-Title: Replacement of the 'USGSstates2k' Package
-Version: 1.0.0
+Title: WGS84 Datum Map of the USA, Including Puerto Rico and the U.S.
+        Virgin Islands
+Version: 1.0.1
 Author: Irucka Embry [aut, cre]
 Maintainer: Irucka Embry <iembry@ecoccs.com>
 Depends: R (>= 3.5.0)
-Imports: sp
-Suggests: USA.state.boundaries.data, install.load, drat, graphics,
-        rgdal, raster, ggspatial, ggplot2, knitr, rmarkdown, gotop
-Description: This is a replacement of the archived 'USGSstates2k' package.
-    It contains a map with the state boundaries of the USA obtained from the
-    USGS. Irucka worked with this data set while a Cherokee Nation Technology
-    Solutions (CNTS) USGS Contractor and/or USGS employee. This package
-    contains a subset of the data included in the 'USA.state.boundaries.data'
-    package, which is available in a 'drat' repository. To install that data
-    package, please follow the instructions at
+Suggests: spelling, sf, USA.state.boundaries.data, install.load, drat,
+        ggplot2
+Description: Contains a WGS84 datum map of the USA, which includes all
+    Commonwealth and State boundaries & also includes Puerto Rico and the U.S.
+    Virgin Islands. This map is a reprojection of the NAD83 datum map from the
+    USGS National Map. This package contains a subset of the data included in
+    the 'USA.state.boundaries.data' package, which is available in a 'drat'
+    repository. To install that data package, please follow the instructions at
     <https://gitlab.com/iembry/usa.state.boundaries.data>.
 URL: https://gitlab.com/iembry/usa.state.boundaries
 BugReports: https://gitlab.com/iembry/usa.state.boundaries/-/issues
@@ -24,12 +23,13 @@ Copyright: This software is in the public domain because it contains
         Geological Survey (USGS), an agency of the United States
         Department of Interior (DOI). For more information, see the
         official USGS copyright policy at
-        https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits#copyright
+        <https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits#copyright>
 Language: en-US
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.2
+LazyDataCompression: xz
+RoxygenNote: 7.2.3
 NeedsCompilation: no
-Packaged: 2022-01-18 22:01:00 UTC; xbyri
+Packaged: 2023-02-09 21:07:49 UTC; xbyri
 Repository: CRAN
-Date/Publication: 2022-01-19 09:32:50 UTC
+Date/Publication: 2023-02-10 10:10:05 UTC
